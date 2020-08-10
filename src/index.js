@@ -41,25 +41,14 @@ var config = {
       });
     },
     create: function create() {
-      // this.sound.add('music');
       this.sound.play('music');
       this.add.image(400, 300, "background");
-
-      // var particles = this.add.particles("red");
-
-      // var emitter = particles.createEmitter({
-      //   speed: 100,
-      //   scale: { start: 1, end: 0 },
-      //   blendMode: "ADD",
-      // });
 
       var box = this.physics.add.image(400, 100, "tiles", 15);
 
       box.setVelocity(100, 200);
       box.setBounce(1, 1);
       box.setCollideWorldBounds(true);
-
-      // emitter.startFollow(box);
     },
     update: function () {},
   },
