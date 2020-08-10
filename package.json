@@ -1,5 +1,5 @@
 {
-    "name": "MintbeanGameHack",
+    "name": "mintbean-game-hack",
     "version": "1.0.0",
     "description": "Mintbean's template for PhaserJS games.",
     "main": "index.js",
