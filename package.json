@@ -1,9 +1,19 @@
 {
-  "name": "MintbeanGameHack",
-  "version": "1.0.0",
-  "description": "Mintbean's template for PhaserJS games.",
-  "main": "index.js",
-  "author": "monarch@mintbean.io",
-  "license": "MIT",
-  "private": true
+    "name": "MintbeanGameHack",
+    "version": "1.0.0",
+    "description": "Mintbean's template for PhaserJS games.",
+    "main": "index.js",
+    "author": "monarch@mintbean.io",
+    "license": "MIT",
+    "private": true,
+    "scripts": {
+        "start": "parcel src/index.html",
+        "build": "parcel build src/index.html"
+    },
+    "dependencies": {
+        "phaser": "3.24.1"
+    },
+    "devDependencies": {
+        "parcel-bundler": "1.12.4"
+    }
 }
